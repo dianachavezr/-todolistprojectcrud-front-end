@@ -19,7 +19,7 @@ export default function Navbar() {
         </NavLink>
 
         <NavLink className="nav-link" to="/create">
-              Nueva Tarea
+          Nueva Tarea
         </NavLink>
       </nav>
     </div>
