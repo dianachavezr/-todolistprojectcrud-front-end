@@ -55,7 +55,7 @@ export default function Create() {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="position">Descripción</label>
+          <label htmlFor="position">Descripción: </label>
           <input
             type="text"
             className="form-control"
