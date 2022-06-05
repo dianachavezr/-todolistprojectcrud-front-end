@@ -44,7 +44,7 @@ export default function Create() {
       <h3 className="formTitle">Agregar Nueva tarea</h3>
       <form onSubmit={onSubmit} className="formBody">
         <div className="form-group">
-          <label htmlFor="name">Tarea</label>
+          <label htmlFor="name">Tarea: </label>
           <input
             type="text"
             className="form-control"
