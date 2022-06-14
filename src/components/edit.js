@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
+import Swal from "sweetalert2";
 
-export default function Edit() {
+export default function Edit(props) {
   const [form, setForm] = useState({
     name: "",
     position: "",
@@ -82,6 +83,7 @@ export default function Edit() {
             id="name"
             value={form.name}
             onChange={(e) => updateForm({ name: e.target.value })}
+            required
           />
         </div>
         <div className="form-group">
@@ -92,6 +94,7 @@ export default function Edit() {
             id="position"
             value={form.position}
             onChange={(e) => updateForm({ position: e.target.value })}
+            required
           />
         </div>
         <div className="form-group">
