@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
-import Swal from "sweetalert2";
 
 export default function Edit(props) {
   const [form, setForm] = useState({
