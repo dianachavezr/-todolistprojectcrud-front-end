@@ -82,6 +82,7 @@ export default function Edit() {
             id="name"
             value={form.name}
             onChange={(e) => updateForm({ name: e.target.value })}
+            required
           />
         </div>
         <div className="form-group">
@@ -92,6 +93,7 @@ export default function Edit() {
             id="position"
             value={form.position}
             onChange={(e) => updateForm({ position: e.target.value })}
+            required
           />
         </div>
         <div className="form-group">
